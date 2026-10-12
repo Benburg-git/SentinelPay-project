@@ -1,10 +1,11 @@
 name: SentinelPay CI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-
+      - feature/sentinelpay-upload
   pull_request:
     branches:
       - main
